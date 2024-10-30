@@ -1,6 +1,7 @@
 BASE_URL = 'https://qa-scooter.praktikum-services.ru/api/v1/'
-COURIER_URL = 'https://qa-scooter.praktikum-services.ru/api/v1/courier/'
-ORDER_URL = 'https://qa-scooter.praktikum-services.ru/api/v1/orders/'
+COURIER_URL = 'courier/'
+ORDER_URL = 'orders/'
+
 
 
 COURIER1 = {
@@ -75,3 +76,9 @@ ORDER_NO_COLOUR = {
 
     ]
 }
+
+USER_NOT_FOUND = "Учетная запись не найдена"
+
+NOT_ENOUGH_ENTER_DATA = "Недостаточно данных для входа"
+
+NOT_ENOUGH_CREATE_DATA = "Недостаточно данных для создания учетной записи"
